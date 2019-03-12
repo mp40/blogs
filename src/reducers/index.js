@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
+import postsReducer from './postsReducer'
 
 export default combineReducers({
-    replaceMe: ()=> 'place holder until write first reducer'
+    posts: postsReducer 
 })
